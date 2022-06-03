@@ -1,0 +1,61 @@
+main{
+  height: 500px;
+  width: 100%;
+  
+}
+div.login{
+  text-align: center;
+}
+div.login>table{
+  width: 400px;
+  height: 200px;
+  background: blue;
+  color: white;
+  margin: auto;
+  margin-top: 100px;
+  text-align: center;
+  border: 1px solid white; 
+  padding: 0;
+  margin-bottom: 15px;
+ 
+    
+}
+
+div.login>table td{
+  border: 1px solid white;
+  padding: 0;
+  margin: 0;
+}
+
+div.login>table input[type="text"],
+div.login>table input[type="password"]{
+  font-size: 14px;
+  height: 25px;
+ border:none;
+  background:#e3e3e3;
+  color: black;
+  text-indent: 10px;
+  
+}
+div.login>table input[type="submit"]{
+   font-size: 14px;
+  height: 25px;
+   cursor: pointer;
+  background:#e3e3e3;
+  color: black; 
+  
+}
+div.login>table label{
+  font-weight: bold;
+  cursor: pointer;
+}
+div.login>label#message{
+   color: red;
+  
+}
+div.login>label#link{
+  text-decoration: underline;
+  cursor: pointer;
+  
+  
+}

@@ -1,0 +1,153 @@
+@media screen and (max-width:980px)
+{
+    section#container{
+      width: 100%;
+    }
+   footer{
+     width: 100%;
+   }
+  section.developer{
+    width: 100%;
+  }
+  section#topbar h3{
+    font-size: 16px;
+  }
+  h2#examTitle{
+    font-size: 20px;
+  }
+  fieldset{
+   width: 55%;
+  }
+  div.address{
+    width: 90%;
+    margin-left: 5%; 
+    justify-content: space-between;
+  }
+  
+/* For result table */
+  div.table span{
+	flex-basis:40px;
+}
+div.table span:nth-child(2){
+	flex-basis: 70px;
+}
+div.table span:nth-child(3){
+	flex-basis: 150px;
+}
+ div.table> div.header{
+   font-size: 16px;
+ }
+ div.scroll,div.header{
+   font-size: 15px;
+ }
+ 
+/* End for result table */
+    
+
+}
+@media screen and (max-width:696px)
+{
+    
+  figure#logo img{
+    width: 100%;
+  }
+  div.address{
+    width: 97%;
+    margin-left: 3%;
+    justify-content: space-between;
+    margin-top:10px;
+  }
+ /* For result table */
+  div.table span{
+	flex-basis:40px;
+}
+div.table span:nth-child(2){
+	flex-basis: 65px;
+}
+div.table span:nth-child(3){
+	flex-basis: 125px;
+}
+ div.table> div.header{
+   font-size: 15px;
+   font-weight: initial;
+   
+ }
+ div.scroll,div.header{
+   font-size: 13px;
+ }
+ 
+/* End for result table */
+    
+        
+}
+@media screen and (max-width:640px){
+   /* For result table */
+  div.table span{
+	flex-basis:30px;
+}
+div.table span:nth-child(2){
+	flex-basis: 67px;
+}
+div.table span:nth-child(3){
+	flex-basis: 115px;
+}
+ div.table> div.header{
+   font-size: 13px;
+   font-weight: none;
+ }
+ div.scroll,div.header{
+   font-size: 12px;
+ }
+ 
+/* End for result table */
+  
+}
+
+@media screen and (max-width:540px)
+{
+  figure#logo img{
+    width:495px;
+  }
+    
+    section#container{
+      width: 540px;
+    }
+   footer{
+     width: 540px;
+   }
+  section.developer{
+   width: 540px;
+  }
+    
+  
+  div.table span{
+	flex-basis:60px;
+}
+div.table span:nth-child(2){
+	flex-basis: 90px;
+}
+div.table span:nth-child(3){
+	flex-basis: 200px;
+}
+   /* For result table */
+  div.table span{
+	flex-basis:33px;
+}
+div.table span:nth-child(2){
+	flex-basis: 67px;
+}
+div.table span:nth-child(3){
+	flex-basis: 115px;
+}
+ div.table> div.header{
+   font-size: 13px;
+   font-weight: none;
+ }
+ div.scroll,div.header{
+   font-size: 11.5px;
+ }
+ 
+/* End for result table */
+
+
+}

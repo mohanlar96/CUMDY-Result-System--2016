@@ -1,0 +1,171 @@
+
+section#selectOption{		
+		width: 100%;
+		height: 60px;
+		display: flex;
+		margin-top: 20px;
+		justify-content: space-around;
+}
+section fieldset{
+	width: 45%;	
+	text-align: center;	
+	color: blue;
+	font-weight: bold;
+	border: 1px groove gray;
+	
+}
+section fieldset select,section fieldset input[type="text"]{
+	width: 60%;	
+	text-align: center;
+	font-size: 15px;
+	color:red;
+	font-weight: bold;
+	
+	
+}
+section fieldset input[type="submit"],section fieldset input[type="button"]{
+	color:red;
+	font-weight: bold;
+	cursor: pointer;
+	background-color: black;
+	border :1px solid white;
+	width: 35px;
+	height: 25px;
+	border-radius: 5px;
+}
+section fieldset input[type="submit"]:hover,section fieldset input[type="button"]:hover{
+	background-color: blue;
+	color:white;
+}
+
+
+h2#examTitle{
+	text-align: center;
+	color:blue;
+	text-shadow: 2px 1px 2px red;
+	font-size:24px;
+	font-family: "Comis Sam MS";
+	margin-top: 15px;
+	font-style: italic;
+}
+ul#menu{
+	display: flex;
+	width: 100%;
+	justify-content: space-around;
+	margin-top: 20px;
+	height:40px;
+	background:black;
+	color:red;
+	
+	
+}
+ul#menu li{
+	list-style: none;
+	display: inline;
+	line-height: 2.5;
+	border-right :1px solid white;
+	width: 20%;
+	text-align: center;	
+	cursor: pointer;
+	transition : all .8s;
+}
+ul#menu li:last-child{
+	border-right: none;
+}
+.menuHover:hover{
+	background-color : gray;
+	color:white;
+	
+	}
+
+
+.clicked, .clicked:hover{
+	color :white;
+	background: blue;
+}
+
+
+/*Start for table*/
+section#tables{
+	margin-top: 30px;
+	height: 605px;
+	width: 100%;
+	overflow: hidden;
+	text-align: center;
+
+
+}
+div.table{
+	
+	font-family:"Zawgyi-One" !important;;
+	position: relative;
+	width: 100%;
+	background:white;
+}
+div.table> div.header, div.table div.cell{
+	height:45px;
+	line-height: 3;
+	border-bottom: 1px solid #c2c2c2;
+	display: flex;
+
+}
+div.table> div.header{
+	height: 50px;
+	background: gray;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+}
+div.table div.cell:last-child{
+	border-bottom: none;
+}
+div.table span{
+	
+	text-align: center;
+	border-right: 1px solid #c2c2c2;
+
+}
+div.table span{
+	flex-basis:90px;
+}
+div.table span:nth-child(2){
+	
+}
+div.table span:nth-child(3){
+	flex-basis: 200px;
+}
+div.header>span:last-child,div.cell>span:last-child{
+	border-right: none;
+}
+div.scroll,div.header{
+	height: 570px;
+	overflow-y:  scroll;
+	font-size: 15px;
+}
+span#error{
+	flex-basis: 100%;
+}
+label.error{
+	line-height: 15;
+	font-size: 20px;
+	color: red;
+	font-weight: bold;
+	font-style: italic;
+	
+}
+
+
+
+
+/*end for tables*/
+
+
+
+
+
+
+
+
+
+
+
